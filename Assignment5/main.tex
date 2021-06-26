@@ -159,12 +159,21 @@ y = x^2-4x+6      \label{eq1}
 \\
 \implies x^2-4x-y+6 =0
 \end{align}
+Comparing it with standard equation,
 \begin{align}
-\implies \vec{x}^T \myvec{1 & 0\\0 & 0}\vec{x}+ 2\myvec{2 \\ \frac{-1}{2}}\vec{x}+6=0
+a x^2+2b x y+c y^2+2d x+2e y+f=0
+\\
+\therefore a=1,b=0,c=0,d=-2,e=-\frac{1}{2},f=6
+\end{align}
+General equation of parabola is 
+\begin{align}
+\vec{x}^T \vec{V}\vec{x}+ 2\vec{u}^T\vec{x}+f&=0
+\\
+\implies\vec{x}^T\myvec{a&b\\b&c}\vec{x}+ 2\myvec{d\\e}\vec{x}+f&=0
 \end{align}
 Here,
 \begin{align}
-\vec{V} = \myvec{1 & 0 \\ 0 & 0},\vec{u}=\myvec{2 \\ \frac{-1}{2}},f=6  \label{eq2}
+\vec{V}=\myvec{1 & 0 \\ 0 & 0},\vec{u}=\myvec{2 \\ \frac{-1}{2}},f=6  \label{eq2}
 \end{align}
 Using eigen decomposition on $\vec{V}$,
 \begin{align}
