@@ -159,17 +159,8 @@ y = x^2-4x+6      \label{eq1}
 \\
 \implies x^2-4x-y+6 =0
 \end{align}
-Comparing it with standard equation,
 \begin{align}
-a x^2+2b x y+c y^2+2d x+2e y+f=0
-\\
-\therefore a=1,b=0,c=0,d=-2,e=-\frac{1}{2},f=6
-\end{align}
-General equation of parabola is 
-\begin{align}
-\vec{x}^T \vec{V}\vec{x}+ 2\vec{u}^T\vec{x}+f&=0
-\\
-\implies\vec{x}^T\myvec{a&b\\b&c}\vec{x}+ 2\myvec{d\\e}\vec{x}+f&=0
+\vec{x}^T\myvec{1 & 0 \\ 0 & 0}\vec{x}+ 2\myvec{2 \\ \frac{-1}{2}}\vec{x}+f&=0
 \end{align}
 Here,
 \begin{align}
@@ -210,8 +201,9 @@ Removing last row and representing \eqref{eq7} as augmented matrix and then conv
 \end{align}
 From $\eqref{eq8}$ it can be observed that,
 \begin{align}
-\vec{c} &= \myvec{2 \\ 2}
+\vec{c} &= \myvec{x \\ y} = \myvec{2 \\ 2}
 \end{align}
+$\therefore x=2$ turns the parabola from decreasing to increasing.
 \begin{enumerate}
 \item f is increasing in interval (2,$\infty$)
 \item f is decreasing in interval (-$\infty$,2)
